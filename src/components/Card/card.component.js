@@ -1,14 +1,19 @@
-import React from 'react';
+import React,{Component} from 'react';
+import { Link } from 'react-router-dom';
 import './card.styles.css';
-export const Card=(props)=>(
-  
-    <div className='card-container'>
-    <div className='image'
-    style={{
-      backgroundImage: `url(${props.product.img})`
-    }}
-    />
-    
-        <h2>{props.product.name}</h2>
+
+
+class Card extends Component{
+ render()
+    {
+      return(
+    <Link to={this.props.product.linkUrl}><div className='card-container'>
+        <img alt="product" src={`${this.props.product.img}`}/>
+        <h2>{this.props.product.name}</h2>
+        <h1>{this.props.product.img}</h1>
     </div>
-);
+    </Link>
+    )}
+};
+
+export default Card;

@@ -2,26 +2,31 @@
     {
         "id":1,
         "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn"
+        "img":"https://ibb.co/SNLqDSn",
+        "linkUrl":"shop/haldi"
     },
     {
         "id":2,
         "name":"preservatifhgh",
-        "img":"https://ibb.co/SNLqDSn"
+        "img":"https://ibb.co/SNLqDSn",
+        "linkUrl":"shop/haldi"
     },
     {
         "id":3,
         "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn"
+        "img":"https://ibb.co/SNLqDSn",
+        "linkUrl":"shop/haldi"
     },
     {
         "id":4,
         "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn"
+        "img":"https://ibb.co/SNLqDSn",
+        "linkUrl":"shop/haldi"
     },
     {
         "id":5,
         "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn"
+        "img":"https://ibb.co/SNLqDSn",
+        "linkUrl":"shop/haldi"
     }
 ]

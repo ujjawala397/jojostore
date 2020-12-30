@@ -1,6 +1,6 @@
 import React from 'react';
 import './cardList.styles.css';
-import {Card} from '../Card/card.component';
+import Card from '../Card/card.component';
 
 export const CardList=(props)=>(
     <div className='card-list'>

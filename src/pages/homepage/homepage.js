@@ -13,13 +13,13 @@ class Homepage extends Component {
       }
     
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/e4c05932-a30a-4a78-b333-4e6aed1c314b')
+        fetch('https://run.mocky.io/v3/d6486fc3-dcb3-474e-8fd7-6eaf49e6e432')
         .then(response=>response.json())
         .then(category=>this.setState({products:category}));
       }
     render() {
         const {products,searchField}=this.state;
-    const filteredMosters=products.filter(product=>
+    const filteredProducts=products.filter(product=>
       product.name.toLowerCase().includes(searchField.toLowerCase())
       );
         return (
@@ -27,9 +27,9 @@ class Homepage extends Component {
                 <Header/>
                 <Slider/>
                 <h2 className="homepage_product_heading">Beverages</h2>
-                <CardList products={filteredMosters}/>
-                <h2 className="homepage_product_heading">Beverages</h2>
-                <CardList products={filteredMosters}/>
+                <CardList products={filteredProducts}/>
+                <h2 className="homepage_product_heading">Home Grocery</h2>
+                <CardList products={filteredProducts}/>
             </div>
         );
    }
