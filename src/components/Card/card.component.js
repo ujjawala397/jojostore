@@ -10,6 +10,5 @@ export const Card=(props)=>(
     />
     
         <h2>{props.product.name}</h2>
-        <h1>{props.product.img}</h1>
     </div>
 );
