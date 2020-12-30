@@ -3,7 +3,13 @@ import './card.styles.css';
 export const Card=(props)=>(
   
     <div className='card-container'>
-    <img alt="product" src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}/>
-        <h2>hdgjh</h2>
+    <div className='image'
+    style={{
+      backgroundImage: `url(${props.product.img})`
+    }}
+    />
+    
+        <h2>{props.product.name}</h2>
+        <h1>{props.product.img}</h1>
     </div>
 );

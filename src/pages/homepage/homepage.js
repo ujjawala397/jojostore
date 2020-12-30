@@ -7,29 +7,29 @@ class Homepage extends Component {
     constructor(){
         super();
         this.state={
-          monsters:[],
+          products:[],
           searchField:''
         };
       }
     
       componentDidMount(){
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('https://run.mocky.io/v3/e4c05932-a30a-4a78-b333-4e6aed1c314b')
         .then(response=>response.json())
-        .then(users=>this.setState({monsters:users}));
+        .then(category=>this.setState({products:category}));
       }
     render() {
-        const {monsters,searchField}=this.state;
-    const filteredMosters=monsters.filter(monster=>
-      monster.name.toLowerCase().includes(searchField.toLowerCase())
+        const {products,searchField}=this.state;
+    const filteredMosters=products.filter(product=>
+      product.name.toLowerCase().includes(searchField.toLowerCase())
       );
         return (
             <div>
                 <Header/>
                 <Slider/>
                 <h2 className="homepage_product_heading">Beverages</h2>
-                <CardList monsters={filteredMosters}/>
+                <CardList products={filteredMosters}/>
                 <h2 className="homepage_product_heading">Beverages</h2>
-                <CardList monsters={filteredMosters}/>
+                <CardList products={filteredMosters}/>
             </div>
         );
    }

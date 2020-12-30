@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="header_main">
                 <h1 className="header_h1"> Jojo Store</h1>
                 <input className="header_input"/>
-                <span className="header_nav_icon" onclick="{openNav}">&#9776; open</span>
+                <span className="header_nav_icon">&#9776; open</span>
                 <ul className="header_ul">
                     <li className="header_li">Contact</li>
                     <li className="header_li">Cart</li>
