@@ -11,7 +11,7 @@ class ProductPage extends Component {
       }
     
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/d6486fc3-dcb3-474e-8fd7-6eaf49e6e432')
+        fetch('https://run.mocky.io/v3/521f093e-35ca-47dd-81ce-9d3966a6eb13')
         .then(response=>response.json())
         .then(category=>this.setState({products:category}));
       }

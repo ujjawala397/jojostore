@@ -1,32 +1,32 @@
 [
     {
         "id":1,
-        "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn",
-        "linkUrl":"shop/haldi"
+        "name":"ghee",
+        "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
+        "linkUrl":"oils/desi"
     },
     {
         "id":2,
-        "name":"preservatifhgh",
-        "img":"https://ibb.co/SNLqDSn",
-        "linkUrl":"shop/haldi"
+        "name":"Dal",
+        "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
+        "linkUrl":"oils/refined"
     },
     {
         "id":3,
-        "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn",
-        "linkUrl":"shop/haldi"
+        "name":"Past",
+        "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
+        "linkUrl":"oils/oil"
     },
     {
         "id":4,
-        "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn",
+        "name":"Soap",
+        "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
         "linkUrl":"shop/haldi"
     },
     {
         "id":5,
-        "name":"preservatives",
-        "img":"https://ibb.co/SNLqDSn",
+        "name":"Shampoo",
+        "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
         "linkUrl":"shop/haldi"
     }
 ]

@@ -11,20 +11,28 @@ class Homepage extends Component {
           searchField:''
         };
       }
-    
+
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/d6486fc3-dcb3-474e-8fd7-6eaf49e6e432')
+        fetch('https://run.mocky.io/v3/521f093e-35ca-47dd-81ce-9d3966a6eb13')
         .then(response=>response.json())
-        .then(category=>this.setState({products:category}));
+        .then(category=>this.setState({products:category}))
       }
     render() {
-        const {products,searchField}=this.state;
-    const filteredProducts=products.filter(product=>
+      const {products,searchField}=this.state;
+      const filteredProducts=products.filter(product=>
       product.name.toLowerCase().includes(searchField.toLowerCase())
       );
         return (
             <div>
-                <Header/>
+                <Header 
+                  className="header_input" 
+                  placeholder="search Categories" 
+                  handleChange={e => this.setState({searchField:e.target.value})} />
+                <input
+                  className="header_input" 
+                  placeholder="search Categories" 
+                  onChange={e => this.setState({searchField:e.target.value})} 
+                />
                 <Slider/>
                 <h2 className="homepage_product_heading">Beverages</h2>
                 <CardList products={filteredProducts}/>

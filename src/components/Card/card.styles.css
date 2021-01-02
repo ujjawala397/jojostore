@@ -10,15 +10,13 @@
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
+  
   }
   
-  .card-container:hover {
+.card-container:hover {
     transform: scale(1.25);
   }
 
-a{
-  color: white;
-  text-decoration: none;
+.category_img{
+ width: 100%; 
 }
-
-  

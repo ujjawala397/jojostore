@@ -1,3 +1,7 @@
 .homepage_product_heading{
    text-align: center;
 }
+a{
+   color: black !important;
+   text-decoration: none !important;
+}
