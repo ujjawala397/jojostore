@@ -13,7 +13,7 @@ class Card extends Component{
         <Link to={product.linkUrl}>
         <div className='card-container'>
             <img alt="product" src={product.img} className="category_img" />
-            <h2>{product.name}</h2>
+            <h4>{product.name}</h4>
         </div>
         </Link>
       ))

@@ -3,9 +3,12 @@ import './cardList.styles.css';
 import Card from '../Card/card.component';
 
 export const CardList=(props)=>(
+    <div>
+    <h1 className="category-heading">{props.List.name}</h1>
     <div className='card-list'>
-        <h1>{props.List.name}</h1>
+        
         <Card products={props.List.category}/>
+    </div>
     </div>
 );
 
