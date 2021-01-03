@@ -4,10 +4,8 @@ import Card from '../Card/card.component';
 
 export const CardList=(props)=>(
     <div className='card-list'>
-        {
-            props.products.map(product=>(
-            <Card key={product.id} product={product} />
-            ))
-        }     
+        <h1>{props.List.name}</h1>
+        <Card products={props.List.category}/>
     </div>
 );
+

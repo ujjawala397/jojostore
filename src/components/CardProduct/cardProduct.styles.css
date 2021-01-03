@@ -12,15 +12,21 @@
     transition: transform 0.25s ease-out;
   }
   
-  .card-product-container:hover {
-    transform: scale(1.25);
-  }
-
 a{
   color: white;
   text-decoration: none;
 }
-
+.cardProductButton{
+  clear: both;
+  float: left;
+  width: 20%;
+  display: flex !important;
+  background-color: blue;
+}
+.cardProductButton:focus {
+  outline: none;
+  box-shadow: none;
+}
   
 .product_img{
   width: 100%; 

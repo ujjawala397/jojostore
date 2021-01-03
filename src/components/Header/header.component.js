@@ -15,8 +15,7 @@ class Header extends Component {
                 <ul className="header_ul">
                     <li className="header_li">Cart</li>
                     <Link to='/contact'><li className="header_li">Contact</li></Link>
-                    <li className="header_li">About</li>
-                    <li className="header_li">Home</li>
+                    <Link to='/'><li className="header_li">Home</li></Link>
                 </ul>
             </div>
         );
@@ -24,4 +23,3 @@ class Header extends Component {
 }
 
 export default Header;
-

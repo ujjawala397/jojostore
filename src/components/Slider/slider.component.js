@@ -45,7 +45,7 @@ class Slider extends Component {
             </div>
           </Carousel.Item>
           
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={4000}>
             <div className="row my-4 mx-2">
               <div className="col-md-4">
                 <div className="card mb-2">

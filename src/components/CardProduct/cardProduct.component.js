@@ -3,16 +3,24 @@ import './cardProduct.styles.css';
 
 
 class CardProduct extends Component{
- render()
+ removeFromCart()
+ {
+  
+ }
+  render()
     {
+      const a=0;
       return(
     <div className='card-product-container'>
 
-        <img alt="product" src={`${this.props.product.img}`} className="product_img"/>
+        <img alt="product" src={this.props.product.img} className="product_img"/>
         <h2>{this.props.product.name}</h2>
-        <button className=" btn-primary"> Add</button>
+        <button className="cardProductButton" onClick={this.removeFromCart}>-</button>
+        {a}
+        <button className="cardProductButton" onClick={this.addToCart}>+</button>
+        
     </div>
-    
+
     )}
 };
 

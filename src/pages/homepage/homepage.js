@@ -13,7 +13,7 @@ class Homepage extends Component {
       }
 
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/521f093e-35ca-47dd-81ce-9d3966a6eb13')
+        fetch('https://run.mocky.io/v3/e33083a9-3250-4989-9398-a5fdc9dfdf25')
         .then(response=>response.json())
         .then(category=>this.setState({products:category}))
       }
@@ -34,10 +34,12 @@ class Homepage extends Component {
                   onChange={e => this.setState({searchField:e.target.value})} 
                 />
                 <Slider/>
-                <h2 className="homepage_product_heading">Beverages</h2>
-                <CardList products={filteredProducts}/>
-                <h2 className="homepage_product_heading">Home Grocery</h2>
-                <CardList products={filteredProducts}/>
+                {
+                  filteredProducts.map(List=>(
+                  <CardList key={List.id} List={List} />
+                  ))
+                } 
+              
             </div>
         );
    }

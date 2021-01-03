@@ -8,12 +8,16 @@ class Card extends Component{
     {
       return(
     <div>
-      <Link to={this.props.product.linkUrl}>
+    {
+      this.props.products.map(product=>(
+        <Link to={product.linkUrl}>
         <div className='card-container'>
-            <img alt="product" src={this.props.product.img} className="category_img" />
-            <h2>{this.props.product.name}</h2>
+            <img alt="product" src={product.img} className="category_img" />
+            <h2>{product.name}</h2>
         </div>
-      </Link>
+        </Link>
+      ))
+    }
     </div>
     )}
 };
