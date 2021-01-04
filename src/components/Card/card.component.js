@@ -14,6 +14,7 @@ class Card extends Component{
         <div className='card-container'>
             <img alt="product" src={product.img} className="category_img" />
             <h4>{product.name}</h4>
+            
         </div>
         </Link>
       ))

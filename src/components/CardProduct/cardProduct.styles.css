@@ -17,15 +17,13 @@ a{
   text-decoration: none;
 }
 .cardProductButton{
-  clear: both;
-  float: left;
-  width: 20%;
-  display: flex !important;
-  background-color: blue;
+  width: 100%;
+  background-color: orange;
 }
 .cardProductButton:focus {
   outline: none;
   box-shadow: none;
+
 }
   
 .product_img{

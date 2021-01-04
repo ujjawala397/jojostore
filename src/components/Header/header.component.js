@@ -1,25 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
+import CartIcon from '../cart-icon/cart-icon.component';
+import CartDropDown from '../cart-dropdown/cart-dropdown.component';
 import {SearchBox} from '../searchBox/searchBox.component';
+import {connect} from 'react-redux';
 import './header.styles.css';
-class Header extends Component {
-    render() {
-        return (
+const Header =({hidden}) => (
+        <div>
             <div className="header_main">
                 <h1 className="header_h1"> Jojo Store</h1>
                 <SearchBox 
                     placeholder="Search Categories Only" 
-                    handleChange={this.props.handleChange}
                 />
                 <span className="header_nav_icon">&#9776; open</span>
                 <ul className="header_ul">
-                    <li className="header_li">Cart</li>
+                    
+                    <li className="header_li"><CartIcon/></li>
                     <Link to='/contact'><li className="header_li">Contact</li></Link>
                     <Link to='/'><li className="header_li">Home</li></Link>
                 </ul>
+                
+                {hidden?null:<CartDropDown/>}
+                
             </div>
+        </div>
         );
-    }
-}
+    
 
-export default Header;
+const mapStateToProps = ({cart:{hidden}})=>({
+    hidden
+})
+export default connect(mapStateToProps,null)(Header);

@@ -7,7 +7,7 @@ export const CardProductList=(props)=>{
         <div className='cardProductList'>
         {
             props.products.map(product=>(
-            <CardProduct key={product.id} product={product} />
+            <CardProduct key={product.id} item={product} />
             ))
         }     
     </div>

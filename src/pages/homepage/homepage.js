@@ -14,7 +14,7 @@ class Homepage extends Component {
       }
 
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/e33083a9-3250-4989-9398-a5fdc9dfdf25')
+        fetch('https://run.mocky.io/v3/0c83eadf-2012-4573-8582-881e43e25390')
         .then(response=>response.json())
         .then(category=>this.setState({products:category}))
       }

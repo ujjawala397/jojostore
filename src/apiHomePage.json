@@ -4,28 +4,28 @@
         "name":"Beverages",
         "category":
         [
-            {
+            {   "id":"1",
                 "name":"milk",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/desi"
             },
-            {
+            {   "id":"2",
                 "name":"Dal",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/refined"
 
             },
-            {
+            {   "id":"3",
                 "name":"Pasta",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/oil"
             },
-            {
+            {   "id":"4",
                 "name":"Soap",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"shop/haldi"
             },
-            {
+            {   "id":"5",
                 "name":"Shampoo",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"shop/haldi"
@@ -37,28 +37,28 @@
         "name":"Grocery",
         "category":
         [
-            {
+            {   "id":"6",
                 "name":"milk",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/desi"
             },
-            {
+            {   "id":"7",
                 "name":"Dal",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/refined"
 
             },
-            {
+            {   "id":"8",
                 "name":"Pasta",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"oils/oil"
             },
-            {
+            {   "id":"9",
                 "name":"Soap",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"shop/haldi"
             },
-            {
+            {   "id":"10",
                 "name":"Shampoo",
                 "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
                 "linkUrl":"shop/haldi"
