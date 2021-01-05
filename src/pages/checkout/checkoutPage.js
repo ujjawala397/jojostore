@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/header.component';
+
+import {connect} from 'react-redux';
+import {createStructuredSelector} from 'reselect';
+
+import {selectCartItems, selectCartItemsCount} from '../../redux/cart/cart.selectors'; 
+
+
 class checkoutPage extends Component {
     render() {
         return (
@@ -10,5 +17,8 @@ class checkoutPage extends Component {
         );
     }
 }
+const mapStateToProps = createStructuredSelector({
+    cartItems:selectCartItems
+})
 
-export default checkoutPage;
+export default connect(mapStateToProps)(checkoutPage);

@@ -3,30 +3,35 @@
         "id":1,
         "name":"ghee",
         "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-        "linkUrl":"oils/desi"
+        "linkUrl":"oils/desi",
+        "price":7
     },
     {
         "id":2,
         "name":"Dal",
         "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-        "linkUrl":"oils/refined"
+        "linkUrl":"oils/refined",
+        "price":17
     },
     {
         "id":3,
         "name":"Past",
         "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-        "linkUrl":"oils/oil"
+        "linkUrl":"oils/oil",
+        "price":27
     },
     {
         "id":4,
         "name":"Soap",
         "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-        "linkUrl":"shop/haldi"
+        "linkUrl":"shop/haldi",
+        "price":72
     },
     {
         "id":5,
         "name":"Shampoo",
         "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-        "linkUrl":"shop/haldi"
+        "linkUrl":"shop/haldi",
+        "price":21
     }
 ]

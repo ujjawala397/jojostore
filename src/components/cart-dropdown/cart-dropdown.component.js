@@ -1,15 +1,14 @@
 import React from 'react';
 import './cart-dropdown.styles.css';
-import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 import CartItem from '../cart-item/cart-item.component';
-
-const CartDropdown = ({cartItems}) => (
+import {withRouter} from 'react-router-dom';
+const CartDropdown = ({cartItems,history}) => (
     <div className='cart-dropdown'>
-    <Link to='/checkout'><button  className="checkout-btn">
+    <button onClick={()=>history.push('/checkout')} to='/checkout'>
        
-          EDIT & CHECKOUT</button>
-      </Link>
+          CHECKOUT
+    </button>
       <div className='cart-items' />
        {
          cartItems.length?
@@ -26,4 +25,4 @@ const CartDropdown = ({cartItems}) => (
   const mapStateToProps=({cart:{cartItems}})=>({
     cartItems
   })
-  export default connect(mapStateToProps)(CartDropdown);
+  export default withRouter(connect(mapStateToProps)(CartDropdown));

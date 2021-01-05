@@ -4,8 +4,8 @@ const CartItem=({item:{img,price,quantity,name}})=>(
     <div className='cart-item'>
     <div className="item-details">
         <img className="cartImg" src={img} alt="item" />
-        <span className="name">{name}</span>
-        <span className="price"> {quantity} pc*{2}=Rs {quantity*2}</span>
+        
+        <span className="price"> {quantity} <span className="name">{name}</span>*{price}=Rs {quantity*price}</span>
     </div>
     </div>
 )
