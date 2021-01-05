@@ -2,9 +2,11 @@ import React from 'react';
 import './cart-item.styles.css';
 const CartItem=({item:{img,price,quantity,name}})=>(
     <div className='cart-item'>
-        <img src={img} alt="item" />
+    <div className="item-details">
+        <img className="cartImg" src={img} alt="item" />
         <span className="name">{name}</span>
-        <span className="price">{quantity}*{price}={quantity*price}</span>
+        <span className="price"> {quantity} pc*{2}=Rs {quantity*2}</span>
+    </div>
     </div>
 )
 

@@ -32,7 +32,7 @@
 .header_nav_icon{
     display:none;
 }
-@media(max-width:1250px)
+/* @media(max-width:1250px)
 {
     .header_li{   
         display: none;
@@ -45,4 +45,4 @@
         text-align: right;
         display:block;
     }
-}
+} */
