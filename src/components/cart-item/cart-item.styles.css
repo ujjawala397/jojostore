@@ -15,6 +15,16 @@
       }
     }
   }
-  .cartImg {
-      width: 30%;
-    }
+.cartImg {
+  width: 30%;
+}
+.cart-drop-btns{
+  background-color: orange;
+  margin: 3%;
+  border-radius: 20%;
+}
+
+.cart-drop-btn{
+  background-color: orange;
+  border-radius: 20%;
+}

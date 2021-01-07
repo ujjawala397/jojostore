@@ -10,15 +10,15 @@ const CartItem=({item,removeItem,addItem,decreaseItem})=>{
         <img className="cartImg" src={img} alt="item" />
         
         <span className="price"> 
-        <button onClick={()=>addItem(item)}>+</button>
+        <button className="cart-drop-btns" onClick={()=>decreaseItem(item)}>-</button>
         {quantity} 
-        <button onClick={()=>decreaseItem(item)}>-</button>
+        <button className="cart-drop-btns" onClick={()=>addItem(item)}>+</button>
         </span>
         
         
         <span className="name">{name}</span>*{price}=Rs {quantity*price}
         
-        <button onClick={()=>removeItem(item)}>Remove</button>
+        <button className="cart-drop-btn" onClick={()=>removeItem(item)}>Remove</button>
         
     </div>
     </div>

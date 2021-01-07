@@ -18,9 +18,12 @@
     width: 100%;
     position: relative;
     margin-bottom: 2%;
+    background-color: orange;
   }
   
   .cartMsg{
     margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
+    background-color: lightgray;
   }

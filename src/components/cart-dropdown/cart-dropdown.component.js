@@ -8,7 +8,7 @@ import { selectCartItems ,selectCartItemsCount, selectCartTotal} from '../../red
 import {withRouter} from 'react-router-dom';
 const CartDropdown = ({cartItems,total,history}) => (
     <div className='cart-dropdown'>
-    <button onClick={()=>history.push('/checkout')} to='/checkout'>
+    <button className="checkout-btn" onClick={()=>history.push('/checkout')} to='/checkout'>
        
           CHECKOUT
     </button>
