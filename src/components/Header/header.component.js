@@ -8,7 +8,7 @@ import './header.styles.css';
 const Header =({hidden}) => (
         <div>
             <div className="header_main">
-                <h1 className="header_h1"> Jojo Store</h1>
+                <h1 className="header_h1"> <Link to="/">JoJo Store</Link></h1>
                 <SearchBox 
                     placeholder="Search Categories Only" 
                 />

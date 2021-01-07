@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import { Link } from 'react-router-dom';
 import './card.styles.css';
 
-
 class Card extends Component{
  render()
     {
@@ -14,7 +13,6 @@ class Card extends Component{
         <div className='card-container'>
             <img alt="product" src={product.img} className="category_img" />
             <h4>{product.name}</h4>
-            
         </div>
         </Link>
       ))
