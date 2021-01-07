@@ -7,6 +7,7 @@ import {createStructuredSelector} from 'reselect';
 
 import {selectCartTotal} from '../../redux/cart/cart.selectors'; 
 
+
 const checkoutPage=({total})=>
             <div>
                 <Header/>

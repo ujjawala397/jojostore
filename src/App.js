@@ -8,12 +8,14 @@ import {Route,Switch} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/oils/:oilid' component={ProductPage}/>
-        <Route exact path='/contact' component={Contact}/>
-        <Route exact path='/checkout' component={CheckoutPage}/>
-      </Switch>
+      <div className="content">
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/oils/:oilid' component={ProductPage}/>
+          <Route exact path='/contact' component={Contact}/>
+          <Route exact path='/checkout' component={CheckoutPage}/>
+        </Switch>
+      </div>
     </div>
   );
 }

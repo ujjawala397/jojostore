@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/header.component';
 import {CardProductList} from '../../components/CardProductList/cardProductList.component';
+
 class ProductPage extends Component {
     constructor(){
         super();
@@ -20,7 +21,7 @@ class ProductPage extends Component {
         const filteredProducts=products.filter(product=>
           product.name.toLowerCase().includes(searchField.toLowerCase())
           );
-        return (
+        return(
             <div>                
                 <Header/>
                 <CardProductList products={filteredProducts}/>

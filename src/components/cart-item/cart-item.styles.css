@@ -3,7 +3,7 @@
     display: flex;
     height: auto;
     margin-bottom: 2%;
-
+    font-size: auto;
     .item-details {      
       width: 70%;
       display: flex;

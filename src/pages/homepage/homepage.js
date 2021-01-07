@@ -3,7 +3,6 @@ import './homepage.styles.css';
 import Header from '../../components/Header/header.component';
 import Slider from '../../components/Slider/slider.component';
 import {CardList} from '../../components/CardList/cardList.component';
-import {Footer} from '../../components/Footer/footer.component';
 class Homepage extends Component {
     constructor(){
         super();
@@ -40,7 +39,7 @@ class Homepage extends Component {
                   <CardList key={List.id} List={List} />
                   ))
                 } 
-              <Footer/>
+              
             </div>
         );
    }

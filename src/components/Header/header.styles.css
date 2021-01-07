@@ -6,7 +6,9 @@
 }
 
 .header_input{
-    width: 100%;
+    margin-left: 35%;
+    text-align: center;
+    width: 30%;
     border-radius: 20px;
     outline: none;
     font-size: large;
