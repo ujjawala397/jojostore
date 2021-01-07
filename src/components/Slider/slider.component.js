@@ -13,8 +13,10 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>first slide label</h3>
+                     {/*
+                      <h3>second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  */}
                   </Carousel.Caption>
                 </div>
               </div>
@@ -25,8 +27,10 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>first slide label</h3>
+                     {/*
+                      <h3>second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  */}
                   </Carousel.Caption>
                 </div>
               </div>
@@ -37,8 +41,10 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>first slide label</h3>
+                    {/*
+                      <h3>second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  */}
                   </Carousel.Caption>
                 </div>
               </div>
@@ -53,8 +59,10 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>second slide label</h3>
+                    {/*
+                      <h3>second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  */}
                   </Carousel.Caption>
                 </div>
               </div>
@@ -65,8 +73,7 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
                   </Carousel.Caption>
                 </div>
               </div>
@@ -77,8 +84,7 @@ class Slider extends Component {
                     alt="Slider"
                     height='250px' width='300px' />
                   <Carousel.Caption>
-                    <h3>second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
                   </Carousel.Caption>
                 </div>
               </div>
