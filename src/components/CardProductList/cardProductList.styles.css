@@ -8,8 +8,7 @@
   }
 
   @media(max-width:620px){
-    .card-list {
-        width: 90%;
-        grid-template-columns: none;
-      }
+    .cardProductList {
+      grid-template-columns: 1fr 1fr;
+    }
   }
