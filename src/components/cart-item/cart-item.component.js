@@ -3,12 +3,11 @@ import './cart-item.styles.css';
 import {connect} from 'react-redux';
 import {removeItem,decreaseItem,addItem} from '../../redux/cart/cart.actions'
 const CartItem=({item,removeItem,addItem,decreaseItem})=>{
-    const {img,price,quantity,name}=item;
+    const {imageUrl,price,quantity,name}=item;
     return(
     <div className='cart-item'>
     <div className="item-details">
-        <img className="cartImg" src={img} alt="item" />
-        
+        <img className="cartImg" src={imageUrl} alt="item" />        
         <span className="price"> 
         <button className="cart-drop-btns" onClick={()=>decreaseItem(item)}>-</button>
         {quantity} 
