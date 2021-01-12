@@ -1,23 +1,20 @@
 import React from 'react';
 import './cardProduct.styles.css';
-import {connect} from 'react-redux';
-import {addItem} from '../../redux/cart/cart.actions';
-
-const CardProduct =({item,addItem})=>{
-  const {img,name,price}=item;
+import CardSubList from '../cardSubList/cardSubList.component';
+const CardProduct = (props) => {
+  
+  console.log(props);
   return(
-    <div className='card-product-container'>
-
-      <img alt="product" src={img} className="product_img"/>
-      <h2>{name}  Rs:{price}</h2>
-      
+    <div className="cardProduct">
+      <h2 className="cardProductHeading">{props.item.name}</h2>
       <div>
-        <button onClick={()=>addItem(item)} className="cardProductButton">Add to Cart</button>
+      {
+        props.item.items.map(product=>(
+        <CardSubList key={product.id} name={props.name} item={product} />
+        ))
+      }    
       </div>
     </div>
 )}
 
-const mapDispatchToProps = dispatch =>({
-  addItem : item=>dispatch(addItem(item))
-})
-export default connect(null,mapDispatchToProps)(CardProduct);
+export default CardProduct;

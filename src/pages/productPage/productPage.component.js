@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/header.component';
 import {CardProductList} from '../../components/CardProductList/cardProductList.component';
-
 class ProductPage extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
           products:[],
           searchField:''
         };
       }
-    
       componentDidMount(){
-        fetch('https://run.mocky.io/v3/d7857bec-efcd-4914-8ac8-2b5fe471379c')
+        fetch('https://run.mocky.io/v3/fb287fc3-a2e5-471e-8fa9-d7c1b4d52148')
         .then(response=>response.json())
         .then(category=>this.setState({products:category}));
       }
@@ -22,9 +20,15 @@ class ProductPage extends Component {
           product.name.toLowerCase().includes(searchField.toLowerCase())
           );
         return(
+          
             <div>                
                 <Header/>
-                <CardProductList products={filteredProducts}/>
+                {
+                  filteredProducts.map(product=>(
+                  <CardProductList key={product.id} item={product} />
+                  ))
+                }  
+                
             </div>
         );
     }

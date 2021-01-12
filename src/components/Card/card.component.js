@@ -9,8 +9,8 @@ class Card extends Component{
     <div>
     {
       this.props.products.map(product=>(
-        <Link to={product.linkUrl}>
-        <div className='card-container'>
+        <Link key={product.id} to={product.linkUrl}>
+        <div  className='card-container'>
             <img alt="product" src={product.img} className="category_img" />
             <h4>{product.name}</h4>
         </div>

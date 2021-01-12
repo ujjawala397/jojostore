@@ -30,5 +30,9 @@
 @media(max-width:620px){
   h4{
     font-size: 0.6rem !important;
+    text-align: center;
+  }
+  .card-container{
+    padding:10px;
   }
 }

@@ -12,10 +12,22 @@ const checkoutPage=({total})=>
             <div>
                 <Header/>
                 <div class="checkout-heading">
-                    <h2>CheckOut Page</h2>
-                    <h3>Total Amount : {total}</h3></div>
-                
-                <Form/>
+                    <h2>Checkout </h2>
+                    
+                    </div>
+                    {
+                        total?
+                        <div>
+                            <Form/>
+                            <h3>Total Amount : {total}</h3>
+                        </div>
+                        :
+                        
+                        <div className="checkout-msg">
+                            <h1>Cart is Empty</h1>
+                            
+                        </div>
+                    } 
             </div>
 
 

@@ -1,0 +1,267 @@
+[
+    {
+        "id":1,
+        "name":"Beverages",
+        "category":
+        [
+            {   "id":"1",
+                "name":"Amul milk",
+                "img":"https://i.ibb.co/929SzWQ/milk-amul.jpg",
+                "linkUrl":"shop/milk",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "milk",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 25
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 25
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 25
+                      }
+                ]
+            },
+            {   "id":"2",
+                "name":"Dal",
+                "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
+                "linkUrl":"shop/dal",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "Dal",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 232
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 24
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 654
+                      }
+                    ]
+            },
+            {   "id":"3",
+                "name":"Paste",
+                "img":"https://i.ibb.co/09VJZc5/paste-himalya.jpg",
+                "linkUrl":"shop/paste",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "paste",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 564
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 144
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 4335
+                      }
+                    ]
+            },
+            {   "id":"4",
+                "name":"Soap",
+                "img":"https://i.ibb.co/PZ9wbdp/dove.jpg",
+                "linkUrl":"shop/soap",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "soap",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 425
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 352
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 642
+                      }
+                    ]
+            },
+            {   "id":"5",
+                "name":"Shampoo",
+                "img":"https://i.ibb.co/rffKFSX/pantene.jpg",
+                "linkUrl":"shop/shampoo",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"Grocery",
+        "category":
+        [
+            {   "id":"6",
+                "name":"Shampoo",
+                "img":"https://i.ibb.co/RyjzKjz/head-And-Shoulder.jpg",
+                "linkUrl":"shop/shampoo",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+            },
+            {   "id":"7",
+                "name":"Dal",
+                "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
+                "linkUrl":"shop/refined",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+
+            },
+            {   "id":"8",
+                "name":"Paste",
+                "img":"https://i.ibb.co/64X94WC/paste-Sensodyne.jpg",
+                "linkUrl":"shop/paste",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+            },
+            {   "id":"9",
+                "name":"Soap",
+                "img":"https://i.ibb.co/PZ9wbdp/dove.jpg",
+                "linkUrl":"shop/soap",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+            },
+            {   "id":"10",
+                "name":"Shampoo",
+                "img":"https://i.ibb.co/RyjzKjz/head-And-Shoulder.jpg",
+                "linkUrl":"shop/shampoo",
+                "items":[
+                    {
+                        "id": 1,
+                        "name": "shampoo",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 31
+                      },
+                      {
+                        "id": 2,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 0
+                      },
+                      {
+                        "id": 3,
+                        "name": "Brown Brim",
+                        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                        "price": 245
+                      }
+                    ]
+            }
+        ]
+    }   
+]

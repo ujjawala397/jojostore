@@ -1,0 +1,16 @@
+.cardSubList {  
+    padding: 15px;
+    float: left;
+    margin-top: 2%;
+    width: 25%;
+    height: auto;
+  }
+  .cardSubList-img{
+      height: auto;
+      width: 100%;
+  }
+  @media(max-width:620px){
+    .cardSubList {
+      width: 40%;
+    }
+  }

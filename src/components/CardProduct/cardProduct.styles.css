@@ -1,28 +1,7 @@
-.card-product-container {
-    display: flex;
-    flex-direction: column;
-    background-color:#ffa50017 ;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 25px;
-    cursor: pointer;
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
-  }
-a{
-  color: white;
-  text-decoration: none;
+.cardProduct{
+  clear: both;
 }
-.cardProductButton{
-  width: 100%;
-  background-color: orange;
+
+.cardProductHeading{
+  text-align: center;
 }
-.cardProductButton:focus {
-  outline: none;
-  box-shadow: none;
-}
-.product_img{
-  width: 100%; 
- }

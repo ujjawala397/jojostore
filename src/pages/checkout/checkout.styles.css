@@ -15,3 +15,12 @@ input::-webkit-inner-spin-button {
 .form{
     padding-left: 0px;
 }
+
+.row{
+
+    margin-left: 0px !important;
+}
+.checkout-msg{
+    margin-top: 10%;
+    text-align: center;
+}
