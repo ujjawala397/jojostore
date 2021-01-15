@@ -2,7 +2,7 @@ import React from 'react';
 import './cardProduct.styles.css';
 import CardSubList from '../cardSubList/cardSubList.component';
 const CardProduct = (props) => {
-  
+
   console.log(props);
   return(
     <div className="cardProduct">

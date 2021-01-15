@@ -17,6 +17,8 @@ const Header =({hidden}) => (
                     
                     <li className="header_li"><CartIcon/></li>
                     <Link to='/contact'><li className="header_li">Contact</li></Link>
+
+                    <Link to='/shop'><li className="header_li">Shop</li></Link>
                     <Link to='/'><li className="header_li">Home</li></Link>
                 </ul>
                 

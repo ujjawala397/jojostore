@@ -1,33 +1,33 @@
 const SHOP_DATA=[
   {   "id":"1",
-      "name":"Amul milk",
+      "name":"milk",
       "img":"https://i.ibb.co/929SzWQ/milk-amul.jpg",
-      "linkUrl":"shop/milk",
+      "linkUrl":"milk",
       "items":[
           {
               "id": 1,
-              "name": "milk",
+              "name": "amul",
               "imageUrl": "https://i.ibb.co/929SzWQ/milk-amul.jpg",
               "price": 25
             },
             {
               "id": 2,
-              "name": "Brown Brim",
+              "name": "madhusudan",
               "imageUrl": "https://i.ibb.co/PZ9wbdp/dove.jpg",
               "price": 25
             },
             {
               "id": 3,
-              "name": "Brown Brim",
+              "name": "verka",
               "imageUrl": "https://i.ibb.co/CMmvTMc/lal.jpg",
               "price": 25
             }
       ]
   },
   {   "id":"2",
-      "name":"Dal",
+      "name":"dal",
       "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-      "linkUrl":"shop/dal",
+      "linkUrl":"dal",
       "items":[
           {
               "id": 4,
@@ -50,9 +50,9 @@ const SHOP_DATA=[
           ]
   },
   {   "id":"3",
-      "name":"Paste",
+      "name":"paste",
       "img":"https://i.ibb.co/09VJZc5/paste-himalya.jpg",
-      "linkUrl":"shop/paste",
+      "linkUrl":"paste",
       "items":[
           {
               "id": 7,
@@ -75,9 +75,9 @@ const SHOP_DATA=[
           ]
   },
   {   "id":"4",
-      "name":"Soap",
+      "name":"soap",
       "img":"https://i.ibb.co/PZ9wbdp/dove.jpg",
-      "linkUrl":"shop/soap",
+      "linkUrl":"soap",
       "items":[
           {
               "id": 10,
@@ -100,9 +100,9 @@ const SHOP_DATA=[
           ]
   },
   {   "id":"5",
-      "name":"Shampoo",
+      "name":"shampoo",
       "img":"https://i.ibb.co/rffKFSX/pantene.jpg",
-      "linkUrl":"shop/shampoo",
+      "linkUrl":"shampoo",
       "items":[
           {
               "id": 13,
@@ -123,12 +123,11 @@ const SHOP_DATA=[
               "price": 245
             }
           ]
-  }
-
+  },
   {   "id":"6",
-      "name":"Shampoo",
+      "name":"conditioner",
       "img":"https://i.ibb.co/RyjzKjz/head-And-Shoulder.jpg",
-      "linkUrl":"shop/shampoo",
+      "linkUrl":"conditioner",
       "items":[
           {
               "id": 16,
@@ -151,9 +150,9 @@ const SHOP_DATA=[
           ]
   },
   {   "id":"7",
-      "name":"Dal",
+      "name":"refined",
       "img":"https://i.ibb.co/CMmvTMc/lal.jpg",
-      "linkUrl":"shop/refined",
+      "linkUrl":"refined",
       "items":[
           {
               "id": 19,
@@ -177,9 +176,9 @@ const SHOP_DATA=[
 
   },
   {   "id":"8",
-      "name":"Paste",
+      "name":"pasta",
       "img":"https://i.ibb.co/64X94WC/paste-Sensodyne.jpg",
-      "linkUrl":"shop/paste",
+      "linkUrl":"paste",
       "items":[
           {
               "id": 22,
@@ -202,9 +201,9 @@ const SHOP_DATA=[
           ]
   },
   {   "id":"9",
-      "name":"Soap",
+      "name":"handwash",
       "img":"https://i.ibb.co/PZ9wbdp/dove.jpg",
-      "linkUrl":"shop/soap",
+      "linkUrl":"handwash",
       "items":[
           {
               "id": 25,
@@ -225,32 +224,6 @@ const SHOP_DATA=[
               "price": 245
             }
           ]
-  },
-  {   "id":"10",
-      "name":"Shampoo",
-      "img":"https://i.ibb.co/RyjzKjz/head-And-Shoulder.jpg",
-      "linkUrl":"shop/shampoo",
-      "items":[
-          {
-              "id": 28,
-              "name": "shampoo",
-              "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-              "price": 31
-            },
-            {
-              "id": 29,
-              "name": "Brown Brim",
-              "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-              "price": 0
-            },
-            {
-              "id": 30,
-              "name": "Brown Brim",
-              "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-              "price": 245
-            }
-          ]
-  } 
+  }
 ]
-
 export default SHOP_DATA;
