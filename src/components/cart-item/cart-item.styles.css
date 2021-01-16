@@ -4,27 +4,4 @@
     height: auto;
     margin-bottom: 2%;
     font-size: auto;
-    .item-details {      
-      width: 70%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      .name {
-        font-size: 16px;
-      }
-    }
   }
-.cartImg {
-  width: 30%;
-}
-.cart-drop-btns{
-  background-color: orange;
-  margin: 3%;
-  border-radius: 20%;
-}
-
-.cart-drop-btn{
-  background-color: orange;
-  border-radius: 20%;
-}

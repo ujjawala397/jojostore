@@ -18,6 +18,17 @@ const CartDropdown = ({cartItems,total,history}) => (
      :null     
     }
       <div className='cart-items' />
+      {
+        (total>=500 && cartItems.length) ?
+        <div className="cartMsgAdd">
+            
+            <span>Eligible for free delivery</span>
+        </div>
+        :
+        <div className="cartMsgAdd">
+            <span>Shop Rs{500-total} More to get free delivery </span>
+        </div>
+       } 
        {
          cartItems.length?
          cartItems.map(cartItem=>(

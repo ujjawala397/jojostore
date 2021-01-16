@@ -18,8 +18,23 @@ const checkoutPage=({total})=>
                     {
                         total?
                         <div>
-                            <Form/>
-                            <h3>Total Amount : {total}</h3>
+                           
+                            
+                            {
+                                total>=500?
+                                <div className="checkout-msgs">
+                                    
+                                    <h2>Eligible for free delivery  : 
+                                    Total  Amount : {total}   </h2>
+                                </div>
+                                
+                                :
+                                
+                                <div className="checkout-msgs">
+                                    <h4>Shop Rs{500-total} More to get free delivery : {total+40}</h4>
+                                </div>
+                            } 
+                             <Form/>
                         </div>
                         :
                         
@@ -28,6 +43,7 @@ const checkoutPage=({total})=>
                             
                         </div>
                     } 
+                    
             </div>
 
 

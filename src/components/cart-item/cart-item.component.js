@@ -6,20 +6,23 @@ const CartItem=({item,removeItem,addItem,decreaseItem})=>{
     const {imageUrl,price,quantity,name}=item;
     return(
     <div className='cart-item'>
-    <div className="item-details">
-        <img className="cartImg" src={imageUrl} alt="item" />        
-        <span className="price"> 
-        <button className="cart-drop-btns" onClick={()=>decreaseItem(item)}>-</button>
-        {quantity} 
-        <button className="cart-drop-btns" onClick={()=>addItem(item)}>+</button>
-        </span>
+    
+        <div className="cart-item-img">
+            <img className="cartImg" src={imageUrl} alt="item" />        
+        </div>
+        <div className="cart-item-details">
+            <span className="price"> 
+            <button className="cart-drop-btns" onClick={()=>decreaseItem(item)}>-</button>
+            {quantity} 
+            <button className="cart-drop-btns" onClick={()=>addItem(item)}>+</button>
+            </span>
+      
         
+        <span className="name">{name}</span>*{price}=Rs {quantity*price} 
         
-        <span className="name">{name}</span>*{price}=Rs {quantity*price}
-        
-        <button className="cart-drop-btn" onClick={()=>removeItem(item)}>Remove</button>
-        
-    </div>
+        <button className="cart-drop-btn" onClick={()=>removeItem(item)}> Remove</button>
+          </div>
+    
     </div>
     )
 }
