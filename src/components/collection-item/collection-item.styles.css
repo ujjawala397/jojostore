@@ -23,18 +23,29 @@
 .card-container:hover {
     transform: scale(1.25);
   }
-
+  .collection-item-btn{
+    background-color: orange;
+  }
 .category_img{
  width: 100%; 
  height: 80%;
 }
 
 @media(max-width:620px){
-  h4{
-    font-size: 0.6rem !important;
-    text-align: center;
+  .collection-item {
+    width:47%;
   }
-  .card-container{
-    padding:10px;
+  .collection-item-img{
+    height: 150px;
   }
+  
+}
+@media(min-width:620px) and (max-width: 992px) {
+  .collection-item {
+    width:30%;
+  }
+  .collection-item-img{
+    height: 180px;
+  }
+  
 }

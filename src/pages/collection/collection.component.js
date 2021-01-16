@@ -10,7 +10,7 @@ const CollectionPage = ({collection}) =>{
     </div>
     )
 }
-const mapStateToProps=(state,ownProps)=>({
+const mapStateToProps= (state, ownProps)=>({
     collection:selectCollection(ownProps.match.params.category)(state)
 })
 export default connect(mapStateToProps)(CollectionPage);

@@ -1,11 +1,22 @@
 import React from 'react';
 import './collection-item.styles.css';
-
-const CollectionItem = ({id,name,imageUrl,price}) => (
+import {connect} from 'react-redux';
+import {addItem} from '../../redux/cart/cart.actions';
+const CollectionItem = ({item,addItem}) => {
+    const {name,imageUrl,price}=item;
+    return(
     <div className="collection-item">
         <img className="collection-item-img" src={imageUrl} alt="product" />
-        <div>{price}{id}{name}</div>
+        <button onClick={()=>addItem(item)} className="collection-item-btn">Add to Cart</button>
+        <div>
+            <div>{name}</div>
+            <div>{price}/- Rs </div>
+        </div>
     </div>
-)
+    )
+}
 
-export default CollectionItem;
+const mapDispatchToProps = dispatch =>({
+    addItem:item=>dispatch(addItem(item))
+})
+export default connect(null,mapDispatchToProps)(CollectionItem);
