@@ -34,11 +34,12 @@ class Homepage extends Component {
                   onChange={e => this.setState({searchField:e.target.value})} 
                 />
                 <Slider/>
+                
                 {
-                  filteredProducts.map(List=>(
-                  <CardList key={List.id} List={List} />
+                  filteredProducts.map(({id,...otheCollectionProps})=>(
+                      <CardList key={id} {...otheCollectionProps} />
                   ))
-                } 
+                }
               
             </div>
         );

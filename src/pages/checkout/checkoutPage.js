@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/header.component';
-import Form from '../../components/form/form.component';
+import Form from '../../components/form/form-checkout.component';
 import './checkout.styles.css';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';

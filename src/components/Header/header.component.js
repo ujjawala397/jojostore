@@ -15,6 +15,7 @@ const Header =({hidden}) => (
                 <span className="header_nav_icon">&#9776; open</span>
                 <ul className="header_ul">
                     
+                    <Link to='/admin'><li className="header_li">Admin</li></Link>
                     <li className="header_li"><CartIcon/></li>
                     <Link to='/contact'><li className="header_li">Contact</li></Link>
 

@@ -25,7 +25,7 @@ const Upload =()=>{
                 
                 <div >
                     <br/>
-                    <FileBase 
+                    <FileBase
                         type="file"
                         multiple={false}
                         onDone={({base64}) => setPostItem({...postItem,selectedFile:base64})}
